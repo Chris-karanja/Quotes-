@@ -17,6 +17,11 @@ export class QuoteComponent implements OnInit {
   toogleDetails(index){
     this.userQuotes[index].showDetail = !this.userQuotes[index].showDetail
   }
+  quoteDelete(isDeleted,index){
+    if (isDeleted){
+        this.userQuotes.splice(index,1);
+		}
+	}
   constructor() {}
 
   ngOnInit() {

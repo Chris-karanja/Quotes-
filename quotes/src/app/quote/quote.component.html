@@ -8,5 +8,5 @@
 <br>
 <br>
 
-<app-quote-details *ngIf ="quote.showDetail"[quote]='quote'></app-quote-details>
+<app-quote-details *ngIf ="quote.showDetail"[quote]='quote' (isDeleted)= 'quoteDelete($event,i)'></app-quote-details>
 </div>
