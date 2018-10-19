@@ -14,6 +14,9 @@ export class QuoteComponent implements OnInit {
     new Quote(4, 'Quote number 4', 'oriso', 0, 0, new Date(2018,7,10)),
     new Quote(5, 'Quote number 5', 'oriso', 0, 0, new Date(2018,7,10))
   ]
+  toogleDetails(index){
+    this.userQuotes[index].showDetail = !this.userQuotes[index].showDetail
+  }
   constructor() {}
 
   ngOnInit() {
