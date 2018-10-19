@@ -2,9 +2,16 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './app.component.html'
 })
+
+
 export class AppComponent {
-  title = 'quotes';
+  quotes: string[];
+
+  constructor(){
+
+    this.quotes = ["Watch Finding Nemo","Buy Cookies","Get new phone case"];
+  }
 }
+
