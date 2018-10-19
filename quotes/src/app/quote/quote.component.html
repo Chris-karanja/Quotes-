@@ -1,3 +1,10 @@
-<p>
-  quote works!
-</p>
+<div *ngFor = 'let quote of userQuotes'>
+  <h2>"{{quote.message}}"</h2>
+   <span><h4>{{quote.author}}</h4></span>
+   <span>{{quote.upVote}} <button>Upvote</button></span><span>{{quote.downVote}} <button>Downvote</button></span>
+  
+  <br><br>
+  
+  <div>{{quote.dateAdded}}</div>
+   <hr>
+</div>
