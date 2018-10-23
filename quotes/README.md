@@ -1,27 +1,51 @@
-# Quotes
+Assignment(IP): Project Quotes
+Moringa Core independent project. The Program lets users add quotes to the website as well as rate them in terms of upvotes and downvotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+Author(s).
+Chris Karanja
 
-## Development server
+Application specs
+Lets Users Submit a quote and Display it onto site
+Lets Users Rate a quote in terms of upvotes and downvotes
+Lets Users know how long the quote has been posted on the site
+Lets Users Delete any quote
+Link to Deployed Site
+https://chris-karanja.github.io/Quotes-/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Project setup instructions
+To see the code written use the following commands:
+git clone https://chris-karanja.github.io/Quotes-/
+cd quotes
+atom .
+code . (if using visual studio code is your preffered text editor)
+Quotes
+This project was generated with Angular CLI version 6.1.2.
 
-## Code scaffolding
+Development server
+Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Code scaffolding
+Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
 
-## Build
+Build
+Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Running unit tests
+Run ng test to execute the unit tests via Karma.
 
-## Running unit tests
+Running end-to-end tests
+Run ng e2e to execute the end-to-end tests via Protractor.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Further help
+To get more help on the Angular CLI use ng help or go check out the Angular CLI README.
 
-## Running end-to-end tests
+License
+MIT License
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Copyright (c) 2018 Moringa School
 
-## Further help
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
