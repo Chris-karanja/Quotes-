@@ -9,9 +9,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   quotes: string[];
 
-  constructor(){
-
-    this.quotes = ["Watch Finding Nemo","Buy Cookies","Get new phone case"];
-  }
+  constructor(){}
 }
 

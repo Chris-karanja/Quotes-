@@ -1,0 +1,14 @@
+.container-fluid{
+    background: url("../../assets/forest_fog_trees_126479_3840x2160.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron{
+    background-color: #333;
+    color: #fff;
+    opacity: 0.9;
+}
+#heading{
+    color: #FFF;
+}
