@@ -6,10 +6,10 @@ import {Quote} from '../quote';
   styleUrls: ['./quote-details.component.css']
 })
 export class QuoteDetailsComponent implements OnInit {
-  @Input() quote:Quote;
+  @Input() quote ; Quote;
   @Output() isDeleted = new EventEmitter<boolean>();
 
-  quoteDelete(deleted:boolean){
+  quoteDelete(deleted: boolean) {
     this.isDeleted.emit(deleted);
   }
 
